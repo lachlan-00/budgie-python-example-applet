@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="budgie-showdesktop">
+  <schema id="com.solus.budgie-showdesktop">
+
+    <key type="b" name="enable-switch">
+      <default>false</default>
+      <summary>Show notification</summary>
+      <description>Simply show the notification on changing mode</description>
+    </key>
+
+    <key type="s" name="text-entry">
+      <default>'/usr/bin'</default>
+      <summary>Folder Path</summary>
+      <description>Folder path of executable files</description>
+    </key>
+  </schema>
+
+</schemalist>
